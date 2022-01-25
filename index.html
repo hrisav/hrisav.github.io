@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+	<title>Hrisav Bhowmick - Portfolio</title>
+	<link rel = "icon" href = "./img/hospital-2a.png" 
+  type = "image/x-icon"> 
+</head>
+<body>
+
+  <header class="text-gray-700 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <img src="./img/hospital-2.png"/>
+        <span class="ml-3 text-xl">Hrisav Bhowmick</span>
+      </a>
+      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+        <a class="mr-5 hover:text-red-600" href="#home">Home</a>
+        <a class="mr-5 hover:text-red-600" href="#projects">Projects</a>
+        <a class="mr-5 hover:text-red-600" href="#journey">Journey</a>
+        <a class="mr-5 hover:text-red-600" href="#skills">Skills</a>
+        <a class="mr-5 hover:text-red-600" href="#blogs">Blogs</a>
+        <a class="mr-5 hover:text-red-600" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <hr>
+
+  <section class="text-gray-700 body-font" id="home">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <div class="medium:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+        <img class="object-cover object-center rounded" alt="hero" src="./img/hrired.jpg">
+      </div>
+
+      <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">      
+        <h1 class="title-font sm:text-4xl text-3xl mb-5 font-lg text-gray-900">
+          <br class="hidden medium:inline-block">Hey! <b>I'm HRISAV.</b>
+        </h1>
+        <p class="mb-8 leading-relaxed">A Data Science practitioner, passionate about solving real world problems, with strong knowledge in Python, SQL, R. Experience in Data Acquisition, Statistical Analysis, Model Building (Machine Learning, Deep Learning, Time Series, NLP) and Deployment following CRISP-DM methodology.</p>
+        <div class="flex justify-center">
+          <button class="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg" onclick="window.location.href='#contact';">Contact Me</button>
+          <button class="ml-4 inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg" onclick="window.open('https://drive.google.com/file/d/1byUwVe7sI2wx69MX9L5wKUoxSllkZxlx/view?usp=sharing','_blank')">Download CV</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="text-gray-600 body-font" id="projects">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="text-center mb-20">
+        <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4" style="color:#f46464"><b>PROJECTS</b></h1>
+        <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Here's the collection of my professional, freelance and personal projects.</p>
+      </div>
+      <div class="flex flex-wrap">
+        <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+          <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Sophia Chatbot</h2>
+          <p class="leading-relaxed text-base mb-4">Built chatbot which can perform intent classification and entity extraction based on customer inputs, using NLU and NLG techniques.</p>
+          <a class="text-red-500 inline-flex items-center" href="https://xreach.io/">Learn More
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+          <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Stock Market Price Prediction</h2>
+          <p class="leading-relaxed text-base mb-4">Predicting future stock price of Infosys based on past data using TS, ML, DL techniques. Also used
+          sentiment scores based on stock news to predict the price.</p>
+          <a class="text-red-500 inline-flex items-center" href="https://github.com/hrisav/stock-price-prediction">Learn More
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+          <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Movie Recommendation System</h2>
+          <p class="leading-relaxed text-base mb-4">Used content, collaborative based filtering and KMeans clustering technique to recommend movies based on user/item similarity</p>
+          <a class="text-red-500 inline-flex items-center" href="https://github.com/hrisav/movie-recommendation">Learn More
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+          <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Traffic Sign Classification</h2>
+          <p class="leading-relaxed text-base mb-4">Created a model that will classify traffic sign images using DL and ML techniques.</p>
+          <a class="text-red-500 inline-flex items-center" href="https://github.com/hrisav/traffic-sign-classify">Learn More
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+          <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Playstore Apps Rating Prediction</h2>
+          <p class="leading-relaxed text-base mb-4">Built a Web app which can predict the ratings of the new android apps and provide insights to the android developers.</p>
+          <a class="text-red-500 inline-flex items-center" href="https://github.com/hrisav/playstore-app-rating-prediction">Learn More
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+          <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Loan Approval System</h2>
+          <p class="leading-relaxed text-base mb-4">Built a Web app (using Flask) which can identify the customers that are eligible for loan, so that the
+          company can specifically target those customers.</p>
+          <a class="text-red-500 inline-flex items-center" href="https://github.com/hrisav/loan-acceptance">Learn More
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+          <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Text Message Spam Classifier</h2>
+          <p class="leading-relaxed text-base mb-4">Built a binary classification model to detect whether a text message is spam or ham, using NLP, ML, DL techniques.</p>
+          <a class="text-red-500 inline-flex items-center" href="https://github.com/hrisav/spam-ham">Learn More
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+          <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Customer Segmentation</h2>
+          <p class="leading-relaxed text-base mb-4">Segmented customers on the basis of RFM score and recommended marketing actions to them.</p>
+          <a class="text-red-500 inline-flex items-center" href="https://github.com/hrisav/Customer-Segmentation">Learn More
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <button class="flex mx-auto mt-16 text-white bg-red-500 border-0 py-2 px-5 focus:outline-none hover:bg-red-600 rounded text-lg" onclick="window.open('https://hrisav.github.io/projects-portfolio/','_blank')">Visit Projects</button>
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="text-gray-700 body-font overflow-hidden" id="journey">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="-my-8">
+        <div class="text-center mb-20">
+          <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4" style="color:#f46464"><b>CAREER JOURNEY</b></h1>
+          <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">In a nutshell, it's been a roller coaster ride for a person who loves taking challenges.</p>
+        </div>
+        <div class="py-8 flex flex-wrap md:flex-no-wrap">
+          <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+            <span class="tracking-widest font-medium title-font text-gray-900" style="color:#f46464">ASENTECH LLC</span>
+            <span class="mt-1 text-gray-500 text-sm"><i>Jun 2021 - Present</i></span>
+          </div>
+          <div class="md:flex-grow">
+            <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Associate Machine Learning Engineer</h2>
+            <p class="leading-relaxed">• Building chatbots with a focus on the power of Conversational Artificial Intelligence (AI) & Machine Language (ML) Models, Voice - for the Healthcare industry using NLP and Deep Learning.</p>
+            <p class="leading-relaxed">• Preparing dataset from zero for a healthcare domain problem, by web scraping, annotating, pre-processing.</p>
+            <p class="leading-relaxed">• Implementation of state-of-the-art Transformer models (BERT / GPT).</p>
+          </div>
+        </div>
+        <hr>
+        <div class="py-8 flex flex-wrap md:flex-no-wrap">
+          <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+            <span class="tracking-widest font-medium title-font text-gray-900" style="color:#f46464">PRAXIS BUSINESS SCHOOL</span>
+            <span class="mt-1 text-gray-500 text-sm"><i>Jul 2020 - Jun 2021</i></span>
+          </div>
+          <div class="md:flex-grow">
+            <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">PGP in Data Science</h2>
+            <p class="leading-relaxed">• Post Graduated with a GPA of 6.55/8.</p>
+            <p class="leading-relaxed">• Achieved 3rd rank in Data Science batch.</p>
+          </div>
+        </div>
+        <div class="py-8 flex border-t-2 border-gray-200 flex-wrap md:flex-no-wrap">
+          <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+            <span class="tracking-widest font-medium title-font text-gray-900" style="color:#f46464">DUKANDAR APP</span>
+            <span class="mt-1 text-gray-500 text-sm"><i>Oct 2019 - Jun 2020</i></span>
+          </div>
+          <div class="md:flex-grow">
+            <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Founding Member</h2>
+            <p class="leading-relaxed">• Product Marketing, User Acquisition, Customer Retention for an app-based purchasing tool that helps small retailers in Daily Stock Audit, Inventory Management, Prepare Purchase Order Lists.</p>
+            <p class="leading-relaxed">• FAQ Chatbot using Machine Learning models.</p>
+            <p class="leading-relaxed">• Helps retailers in stock & financial projections based on the previous purchase history.
+            </p>
+          </div>
+        </div>
+        <div class="py-8 flex border-t-2 border-gray-200 flex-wrap md:flex-no-wrap">
+          <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+            <span class="tracking-widest font-medium title-font text-gray-900" style="color:#f46464">BHOWMICK & SONS</span>
+            <span class="mt-1 text-gray-500 text-sm"><i>Jul 2018 - Oct 2019</i></span>
+          </div>
+          <div class="md:flex-grow">
+            <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Executive Assistant</h2>
+            <p class="leading-relaxed">• Designing, producing of costume jewelry. Manufacturing and assembling parts, inventory and resource management.</p>
+            <p class="leading-relaxed">• B2B wholesale distributorship: packaging, distributing, exporting, marketing.</p>
+          </div>
+        </div>
+        <div class="py-8 flex border-t-2 border-gray-200 flex-wrap md:flex-no-wrap">
+          <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+            <span class="tracking-widest font-medium title-font text-gray-900" style="color:#f46464">COGNIZANT INDIA</span>
+            <span class="mt-1 text-gray-500 text-sm"><i>Jun 2015 - Jul 2018</i></span>
+          </div>
+          <div class="md:flex-grow">
+            <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Programmer Analyst</h2>
+            <p class="leading-relaxed">• Handled large datasets, performed exploratory analysis to identify trends. Generated reports, translated data into visualizations and built dashboards. Used: Python, SQL, Tableau.</p>
+            <p class="leading-relaxed">• Designed data models, business process and conceptual models for clinical trials using ER Studio.</p>
+            <p class="leading-relaxed">• Developed mappings and workflows on Informatica Data Quality Tool for ETL purpose.</p>
+            <p class="leading-relaxed">• Built ETL pipeline: Standardized data using SQL Developer and migrated data from Staging (Legacy Payroll System) to UAT (Payroll + HCM) using Datalake tool. </p>
+          </div>
+        </div>
+        <div class="py-8 flex border-t-2 border-gray-200 flex-wrap md:flex-no-wrap">
+          <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+            <span class="tracking-widest font-medium title-font text-gray-900" style="color:#f46464">KARUNYA UNIVERSITY</span>
+            <span class="mt-1 text-gray-500 text-sm"><i>Jul 2011 - May 2015</i></span>
+          </div>
+          <div class="md:flex-grow">
+            <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">BTECH in Computer Science</h2>
+            <p class="leading-relaxed">• Graduated with a GPA of 7.9/10.</p>
+            <p class="leading-relaxed">• Achieved 2nd rank in Computer Science department in SEM-I.</p>
+          </div>
+        </div>
+      </div>
+      <button class="flex mx-auto mt-16 text-white bg-red-500 border-0 py-2 px-5 focus:outline-none hover:bg-red-600 rounded text-lg" onclick="window.open('https://www.linkedin.com/in/hrisav/','_blank')">Visit LinkedIn</button>
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="text-gray-700 body-font" id="skills">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="text-center mb-20">
+        <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4" style="color:#f46464"><b>TECHNICAL SKILLS</b></h1>
+        <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">From Data Preprocessing to Machine Learning, I have been honing my skills in the following set of tools.</p>
+      </div>
+      <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-200 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-red-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium">Languages: <i>Python, R, Java</i></span>
+          </div>
+        </div>
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-200 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-red-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium">Data Wrangling: <i>Pandas, Numpy</i></span>
+          </div>
+        </div>
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-200 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-red-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium">Data Visualization: <i>Matplotlib, Seaborn</i></span>
+          </div>
+        </div>
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-200 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-red-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium">Visual Analytics: <i>Tableau, Google Data Studio</i></span>
+          </div>
+        </div>
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-200 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-red-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium">Machine Learning: <i>Scikit-Learn</i></span>
+          </div>
+        </div>
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-200 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-red-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium">Deep Learning: <i>TensorFlow, PyTorch</i></span>
+          </div>
+        </div>
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-200 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-red-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium">Natural Language Processing: <i>NLTK, Spacy</i></span>
+          </div>
+        </div>
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-200 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-red-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium">Higher Maths: <i>Statistics, Linear Algebra, Calculus</i></span>
+          </div>
+        </div>
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-200 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-red-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium">Database/Processing: <i>MySQL, MongoDB, PySpark</i></span>
+          </div>
+        </div>
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-200 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-red-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium">Cloud: <i>AWS, Heroku</i></span>
+          </div>
+        </div>
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-200 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-red-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium">Web Scraping: <i>Beautiful Soup, Selenium</i></span>
+          </div>
+        </div>
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-200 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-red-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium">Web Framework: <i>Flask (with HTML & CSS)</i></span>
+          </div>
+        </div>
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-200 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-red-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium">SDLC Tools: <i>Jira, GIT</i></span>
+          </div>
+        </div>
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-200 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-red-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium">AWS: <i>EC2, S3, Sagemaker</i></span>
+          </div>
+        </div>
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-200 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-red-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium">Photo Editing: <i>Photoshop</i></span>
+          </div>
+        </div>
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-200 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-red-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium">Video Editing: <i>Sony Vegas</i></span>
+          </div>
+        </div>
+      </div>
+      <button class="flex mx-auto mt-16 text-white bg-red-500 border-0 py-2 px-5 focus:outline-none hover:bg-red-600 rounded text-lg" onclick="window.open('https://github.com/hrisav','_blank')">Visit GitHub</button>
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="text-gray-600 body-font" id="blogs">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="text-center mb-20">
+        <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4" style="color:#f46464"><b>BLOGS</b></h1>
+        <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Check out some of my blogs on Medium.</p>
+      </div>
+      <div class="flex flex-wrap -m-4">
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://miro.medium.com/max/1400/1*saTz26p5gj0m8yR4pSN6cA.jpeg" alt="blog">
+            <div class="p-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">MEDIUM</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Roadmap of Mathematics for Machine Learning
+              </h1>
+              <p class="leading-relaxed mb-3">Check out the major topics of Linear Algebra, Calculus, Statistics, Probability.</p>
+              <div class="flex items-center flex-wrap ">
+                <a class="text-red-500 inline-flex items-center md:mb-2 lg:mb-0" href="https://hrisavb.medium.com/roadmap-of-mathematics-for-machine-learning-48f23baa57">Learn More
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://c4.wallpaperflare.com/wallpaper/527/815/820/network-localhost-typography-computer-simple-background-wallpaper-preview.jpg" alt="blog">
+            <div class="p-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">MEDIUM</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">ML model deployment with Flask on localhost - PART I</h1>
+              <p class="leading-relaxed mb-3">We will see how to build ML model, design the HTML/CSS page and finally run it on localhost.</p>
+              <div class="flex items-center flex-wrap">
+                <a class="text-red-500 inline-flex items-center md:mb-2 lg:mb-0" href="https://hrisavb.medium.com/ml-model-deployment-with-flask-on-local-host-part-i-300694542d68">Learn More
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://miro.medium.com/max/1400/1*ldMOEzZH7SIG9ObV7ZNEpw.jpeg" alt="blog">
+            <div class="p-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">MEDIUM</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">ML model deployment with Flask using AWS EC2 - PART II</h1>
+              <p class="leading-relaxed mb-3">Learn how to deploy ML enabled app on webhost (using Amazon EC2) in 10 easy steps.</p>
+              <div class="flex items-center flex-wrap">
+                <a class="text-red-500 inline-flex items-center md:mb-2 lg:mb-0" href="https://hrisavb.medium.com/ml-model-deployment-with-flask-using-aws-ec2-part-ii-38ca941e0c4b">Learn More
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <hr>
+  <section class="text-gray-700 body-font relative" id="contact">
+    <div class="container px-5 py-24 mx-auto flex sm:flex-no-wrap flex-wrap">
+      <div class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+        <iframe width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6473.061491847873!2d88.3770863892705!3d22.6471490515206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9c282de4616a2ddb!2sBhowmick&#39;s%20Kaibalya%20Bhawan!5e0!3m2!1sen!2sin!4v1590701409336!5m2!1sen!2sin" style="filter: grayscale(1) contrast(1.2) opacity(0.4);"></iframe>
+        <div class="bg-white relative flex flex-wrap py-6">
+          <div class="lg:w-1/2 px-6">
+            <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm">ADDRESS</h2>
+            <p class="leading-relaxed">110/18B, B.T. Road, Kolkata - 700108</p>
+            <p>West Bengal, India</p>
+          </div>
+          <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+            <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm">EMAIL</h2>
+            <a class="text-red-500 leading-relaxed">hrisavbhowmick@gmail.com</a>
+            <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mt-4">PHONE</h2>
+            <p class="leading-relaxed">+91-9629870325</p>
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+        <h2 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4" style="color:#f46464">CONTACT</h2>
+        <p class="leading-relaxed mb-5 text-gray-600">Have work opportunities? Want freelancing for Data Science projects? Want to collab in Hackathons? Please drop a mail. I'll get back to you soon.</p>
+       <!--  <input class="bg-white rounded border border-gray-400 focus:outline-none focus:border-red-500 text-base px-4 py-2 mb-4" placeholder="Name" type="text">
+        <input class="bg-white rounded border border-gray-400 focus:outline-none focus:border-red-500 text-base px-4 py-2 mb-4" placeholder="Email" type="email">
+        <input class="bg-white rounded border border-gray-400 focus:outline-none focus:border-red-500 text-base px-4 py-2 mb-4" placeholder="Subject" type="subject">
+        <textarea class="bg-white rounded border border-gray-400 focus:outline-none h-32 focus:border-red-500 text-base px-4 py-2 mb-4 resize-none" placeholder="Message"></textarea>
+        <button class="text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">Submit</button>
+      </div> -->
+    </div>
+  </section>
+
+  <hr>
+
+  <footer class="text-gray-700 body-font">
+    <div class="bg-gray-200">
+      <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
+        <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+          <img src="./img/hospital-2.png"/>
+          <span class="ml-3 text-xl">Hrisav Bhowmick</span>
+        </a>
+        <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© 2021 Hrisav. All rights reserved.</p>
+
+        <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+         <img src="./img/linkedin--v2.png" onclick="window.open('https://www.linkedin.com/in/hrisav/','_blank')"/>
+         <img src="./img/github--v1.png" onclick="window.open('https://github.com/hrisav','_blank')"/> 
+         <img src="./img/twitter--v1.png" onclick="window.open('https://twitter.com/GoDpuncheDmeh/','_blank')"/>  
+         <img src="./img/youtube--v1.png"/>
+         <img src="./img/instagram-new.png" onclick="window.open('https://www.instagram.com/hrisav/','_blank')"/>   
+         <img src="./img/facebook-new.png" onclick="window.open('https://www.facebook.com/goDpuncheDmeh/','_blank')"/>
+       </span>
+     </div>
+   </div>
+ </footer>
+
+</body>
+</html>
+
